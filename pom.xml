@@ -64,7 +64,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.myprojects.tic_tac_toe/com.myprojects.tic_tac_toe.HelloApplication
+                            <mainClass>com.myprojects.tic_tac_toe/com.myprojects.tic_tac_toe.Application
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

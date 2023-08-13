@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane prefHeight="300.0" prefWidth="300.0" fx:controller="com.myprojects.tic_tac_toe.BoardController" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER">
+   <children>
+      <Button mnemonicParsing="false" prefHeight="100" prefWidth="100" GridPane.columnIndex="0" GridPane.rowIndex="0" onAction="#playAction" fx:id="box00"/>
+      <Button mnemonicParsing="false" prefHeight="100" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="0" onAction="#playAction" fx:id="box01"/>
+      <Button mnemonicParsing="false" prefHeight="100" prefWidth="100" GridPane.columnIndex="2" GridPane.rowIndex="0" onAction="#playAction" fx:id="box02"/>
+      <Button mnemonicParsing="false" prefHeight="100" prefWidth="100" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#playAction" fx:id="box10"/>
+      <Button mnemonicParsing="false" prefHeight="100" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#playAction" fx:id="box11"/>
+      <Button mnemonicParsing="false" prefHeight="100" prefWidth="100" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#playAction" fx:id="box12"/>
+      <Button mnemonicParsing="false" prefHeight="100" prefWidth="100" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#playAction" fx:id="box20"/>
+      <Button mnemonicParsing="false" prefHeight="100" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#playAction" fx:id="box21"/>
+      <Button mnemonicParsing="false" prefHeight="100" prefWidth="100" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#playAction" fx:id="box22"/>
+   </children>
+</GridPane>
